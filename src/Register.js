@@ -168,13 +168,13 @@ const Register = () => {
 
                         <button disabled={!validName || !validPwd || !validMatch ? true : false}>Sign Up</button>
                     </form>
-                    <p>
+                    {/* <p>
                         Already registered?<br />
                         <span className="line">
-                            {/*put router link here*/}
+                            
                             <a href="#">Sign In</a>
                         </span>
-                    </p>
+                    </p> */}
                 </section>
             )}
         </>
