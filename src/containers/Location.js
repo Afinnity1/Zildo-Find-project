@@ -61,7 +61,7 @@ const Location = () => {
 
                 
                 <div className="result">
-                    <table>
+                    <table className='tab'>
                         <tr className='headerr'>
                             <th>COUNTRY</th>
                             <th>REGION</th>

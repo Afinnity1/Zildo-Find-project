@@ -6,7 +6,7 @@ const Bottom = () => {
       <div className="bottom-cont">
         <div>
             <h4>Zildo-find</h4>
-            <>This sitte is owned and operated by lorem ipsum <br />
+            <>This site is owned and operated by lorem ipsum <br />
             lorem ipsum lorem ipsum ipsum</>
             
         </div>

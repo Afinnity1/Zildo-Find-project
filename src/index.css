@@ -375,15 +375,12 @@ button {
     display: flex;
     gap: 23%;
     padding-top: 20px; 
-  }
-  
-  .bottom-cont p {
-    font-size: 12px;
-    color: #b2beb5;
+    color: #656765;
   }
   
   .bottom-cont h4 {
     margin-bottom: 7px;
+    color: #fff;
   }
   
   .geomap{
@@ -420,4 +417,389 @@ button {
   .Geo-tab p{
     font-weight: bold;
     color:#2A313D;
+  }
+
+  /* mobile screens resolution(iphone6/7/8) 375 x 667 */
+  @media screen and (max-width: 375px) and (height: 667px) {
+    .search-box{
+      display: none;
+    }
+    
+    .firstSec-text span{
+      font-size: 22px;
+    }
+    .firstSec-text h1{
+      font-size: 13px;
+    }
+    .firstSec-text p{
+      font-size: 10px !important;
+    }
+    .form-area .loca-btn{
+      font-size: 12px;
+      padding-bottom: 1.4rem;
+      margin-bottom: 40px;
+    }
+    .location{
+      height: 73vh !important;
+    }
+    .location-cont{
+      display: flex;
+      flex-direction: column;
+    }
+    .result .tab{
+      width: 100% !important;
+      font-size: 10px;
+    }
+
+    table{
+      width: 100% !important;
+    }
+    
+    .reviews-cont{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .reviews-cont div{
+      width: 100%;
+    }
+
+    .bottom{
+      height: 40vh;
+    }
+    .bottom-cont{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+
+  /* mobile screens resolution(iphone6/7/8 +) 414 x 736 */
+  @media screen and (max-width: 414px) and (height: 736px) {
+    .search-box{
+      display: none;
+    }
+    
+    .firstSec-text span{
+      font-size: 32px;
+    }
+    .firstSec-text h1{
+      font-size: 13px;
+    }
+    .firstSec-text p{
+      font-size: 13px;
+    }
+    .form-area .loca-btn{
+      font-size: 12px;
+      padding-bottom: 1.5rem;
+      margin-bottom: 40px;
+    }
+    .location{
+      height: 63vh !important;
+    }
+    .location-cont{
+      display: flex;
+      flex-direction: column;
+    }
+    .result .tab{
+      width: 100% !important;
+      font-size: 10px;
+    }
+
+    table{
+      width: 100% !important;
+    }
+    
+    .reviews-cont{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .reviews-cont div{
+      width: 100%;
+    }
+
+    .bottom{
+      height: 40vh;
+    }
+    .bottom-cont{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+
+  /* mobile screens resolution(iphoneXR) 414 x 896 */
+  @media screen and (max-width: 414px) and (max-height: 896px) {
+    .search-box{
+      display: none;
+    }
+    
+    .firstSec-text span{
+      font-size: 32px;
+    }
+    .firstSec-text h1{
+      font-size: 13px;
+    }
+    .firstSec-text p{
+      font-size: 13px;
+    }
+    .form-area .loca-btn{
+      font-size: 12px;
+      padding-bottom: 1.5rem;
+      margin-bottom: 40px;
+    }
+    .location{
+      height: 63vh;
+    }
+    .location-cont{
+      display: flex;
+      flex-direction: column;
+    }
+    .result .tab{
+      width: 100% !important;
+      font-size: 10px;
+    }
+
+    table{
+      width: 100% !important;
+    }
+    
+    .reviews-cont{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .reviews-cont div{
+      width: 100%;
+    }
+
+    .bottom{
+      height: 40vh;
+    }
+    .bottom-cont{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+
+  /* mobile screens resolution(iphone12pro) 390 x 844 */
+  @media screen and (max-width: 390px) and (max-height: 844px) {
+    .search-box{
+      display: none;
+    }
+    
+    .firstSec-text span{
+      font-size: 32px;
+    }
+    .firstSec-text h1{
+      font-size: 13px;
+    }
+    .firstSec-text p{
+      font-size: 13px;
+    }
+    .form-area .loca-btn{
+      font-size: 12px;
+      padding-bottom: 1.5rem;
+      margin-bottom: 40px;
+    }
+    .location{
+      height: 63vh;
+    }
+    .location-cont{
+      display: flex;
+      flex-direction: column;
+    }
+    .result .tab{
+      width: 100% !important;
+      font-size: 10px;
+    }
+
+    table{
+      width: 100% !important;
+    }
+    
+    .reviews-cont{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .reviews-cont div{
+      width: 100%;
+    }
+
+    .bottom{
+      height: 40vh;
+    }
+    .bottom-cont{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+
+   /* mobile screens resolution(iphone14promax) 430 x 932 */
+   @media screen and (max-width: 430px) and (max-height: 932px) {
+    .search-box{
+      display: none;
+    }
+    
+    .firstSec-text span{
+      font-size: 32px;
+    }
+    .firstSec-text h1{
+      font-size: 13px;
+    }
+    .firstSec-text p{
+      font-size: 13px;
+    }
+    .form-area .loca-btn{
+      font-size: 12px;
+      padding-bottom: 1.5rem;
+      margin-bottom: 40px;
+    }
+    .location{
+      height: 57vh;
+    }
+    .location-cont{
+      display: flex;
+      flex-direction: column;
+    }
+    .result .tab{
+      width: 100% !important;
+      font-size: 10px;
+    }
+
+    table{
+      width: 100% !important;
+    }
+    
+    .reviews-cont{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .reviews-cont div{
+      width: 100%;
+    }
+
+    .bottom{
+      height: 40vh;
+    }
+    .bottom-cont{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+
+  /* mobile screens resolution(pixel7) 412 x 915 */
+  @media screen and (max-width: 412px) and (max-height: 915px) {
+    .search-box{
+      display: none;
+    }
+    
+    .firstSec-text span{
+      font-size: 32px;
+    }
+    .firstSec-text h1{
+      font-size: 13px;
+    }
+    .firstSec-text p{
+      font-size: 13px;
+    }
+    .form-area .loca-btn{
+      font-size: 12px;
+      padding-bottom: 1.5rem;
+      margin-bottom: 40px;
+    }
+    .location{
+      height: 57vh;
+    }
+    .location-cont{
+      display: flex;
+      flex-direction: column;
+    }
+    .result .tab{
+      width: 100% !important;
+      font-size: 10px;
+    }
+
+    table{
+      width: 100% !important;
+    }
+    
+    .reviews-cont{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .reviews-cont div{
+      width: 100%;
+    }
+
+    .bottom{
+      height: 40vh;
+    }
+    .bottom-cont{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+
+  /* mobile screens resolution(samsung galaxy s8+) 360 x 740 */
+  @media screen and (max-width: 360px) and (max-height: 740px) {
+    .search-box{
+      display: none;
+    }
+    
+    .firstSec-text span{
+      font-size: 32px;
+    }
+    .firstSec-text h1{
+      font-size: 13px;
+    }
+    .firstSec-text p{
+      font-size: 10px;
+    }
+    .form-area .loca-btn{
+      font-size: 12px;
+      padding-bottom: 1.5rem;
+      margin-bottom: 40px;
+    }
+    .location{
+      height: 65vh;
+    }
+    .location-cont{
+      display: flex;
+      flex-direction: column;
+    }
+    .result .tab{
+      width: 100% !important;
+      font-size: 9px;
+    }
+
+    table{
+      width: 100% !important;
+    }
+    
+    .reviews-cont{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .reviews-cont div{
+      width: 100%;
+    }
+
+    .bottom{
+      height: 40vh;
+    }
+    .bottom-cont{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
   }
